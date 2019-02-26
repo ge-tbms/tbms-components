@@ -1,0 +1,25 @@
+{
+  "name": "components",
+  "version": "0.0.1",
+  "description": "tbms, components,",
+  "author": "matrix ",
+  "scripts": {
+    "doc": "npx jsdoc -c conf.json -R README.md -r",
+    "pub": "npx lerna changed && npx lerna publish",
+    "bootstrap": "npx lerna bootstrap",
+    "hoist": "npx lerna bootstrap --hoist",
+    "clean": "npx lerna clean",
+    "link": "npx lerna link"
+  },
+  "keywords": [
+    "tbms",
+    "components"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.10",
+    "ink-docstrap": "^1.3.2",
+    "jsdoc": "^3.5.5",
+    "lerna": "^3.4.0"
+  }
+}
