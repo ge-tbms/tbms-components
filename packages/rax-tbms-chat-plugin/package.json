@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tbms-chat-plugin with rax ",
   "author": "matrix ",
   "main": "src/index.js",
