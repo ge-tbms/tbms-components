@@ -1,31 +1,23 @@
-import {Component, createElement, PropTypes, render} from 'rax';
-import {isWeex, isWeb} from 'universal-env';
-import View from 'rax-view';
-import Text from 'rax-text';
-import Image from 'rax-image';
+/**
+ * ----------------------------------
+ * @file index.js
+ * @desc 基础消息组件
+ * @author Matrix
+ * @create: 2019/02
+ * ----------------------------------
+ */
+import Image from './mods/image';
+import System from './mods/system';
+import Text from './mods/text';
 
-const styles = {
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  containerBody: {
-    fontSize: 40,
-    color: '#999'
-  }
-};
-
-class App extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.containerBody}>hello world</Text>
-      </View>
-    );
-  }
+export default {
+  Image,
+  System,
+  Text
 }
 
-render(<App />);
-
-export default App
+export {
+  Image,
+  System,
+  Text
+};

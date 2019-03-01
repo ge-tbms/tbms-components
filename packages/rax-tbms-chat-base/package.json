@@ -1,9 +1,9 @@
 {
-  "name": "rax-tbms-basemsg",
-  "version": "0.0.2",
-  "description": "tbms basemsg component with rax ",
+  "name": "rax-tbms-chat-base",
+  "version": "0.0.1",
+  "description": "base ability of chat component",
   "author": "matrix ",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "rax-scripts start -p 8000",
     "build": "rax-scripts build",
@@ -11,16 +11,16 @@
     "lint": "eslint --ext .js --ext .jsx ./src"
   },
   "keywords": [
-    "tbms",
-    "basemsg",
-    "component",
-    "rax"
+    "chat",
+    "rax",
+    "base"
   ],
   "engines": {
     "npm": ">=3.0.0"
   },
   "dependencies": {
-    "rax-tbms-chat-base": "^0.0.1",
+    "@types/lodash": "^4.14.121",
+    "lodash": "^4.17.11",
     "rax-image": "^0.6.5",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",

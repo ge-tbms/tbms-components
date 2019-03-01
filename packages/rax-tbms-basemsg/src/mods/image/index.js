@@ -1,37 +1,26 @@
-/**
- * ----------------------------------
- * @file index.js
- * @desc image
- * @create: 2018/6
- * ----------------------------------
- */
-import {Component, createElement, PropTypes, render} from 'rax';
-import {isWeex, isWeb} from 'universal-env';
-import View from 'rax-view';
-import Text from 'rax-text';
+import { BaseComponent,  createElement, customStyles, systemStyles } from '@ali/rax-tbms-chat-base'
 import Image from 'rax-image';
 
-const styles = {
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center'
-  },
-  containerBody: {
-    fontSize: 40,
-    color: '#999'
-  }
-};
+/**
+ * @class
+ * @name tbms-image 图片基础组件
+ * @property {Object} props           属性
+ * @property {String} props.text      文字
+ */
 
-class App extends Component {
+const fontSize = 2;
+export default class extends BaseComponent {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.containerBody}>hello world</Text>
-      </View>
-    );
+    const { file } = this.props;
+    if (!this.props.isFull || typeof this.props.file !== 'object') {
+      throw new Error('isFull and file property must be setting!');
+    }
+    const style = {
+      height: file.h / fontSize,
+      width: file.w / fontSize,
+      borderRadius: customStyles.border.mainBorderRadius
+    };
+
+    return <Image source={{uri: this.props.file.url}} style={style} resizeMode="cover" />;
   }
 }
-
-
-export default App
