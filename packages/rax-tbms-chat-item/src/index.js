@@ -16,7 +16,7 @@ const styles = {
   }
 };
 
-class App extends Component {
+export default class extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -25,7 +25,3 @@ class App extends Component {
     );
   }
 }
-
-render(<App />);
-
-export default App

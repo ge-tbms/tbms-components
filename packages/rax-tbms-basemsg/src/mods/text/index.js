@@ -1,3 +1,10 @@
+/**
+ * ----------------------------------
+ * @file index.js
+ * @desc text
+ * @create: 2018/6
+ * ----------------------------------
+ */
 import {Component, createElement, PropTypes, render} from 'rax';
 import {isWeex, isWeb} from 'universal-env';
 import View from 'rax-view';
@@ -26,6 +33,5 @@ class App extends Component {
   }
 }
 
-render(<App />);
 
 export default App

@@ -1,5 +1,6 @@
-import {Component, createElement, PropTypes, render} from 'rax';
-import {isWeex, isWeb} from 'universal-env';
-import View from 'rax-view';
-import Text from 'rax-text';
-import Image from 'rax-image';
+"use strict";
+import { createElement, Component } from "rax";
+import { _, Middleware } from "tbms-util";
+import baseParse from './parse';
+
+export default new Middleware([baseParse]);

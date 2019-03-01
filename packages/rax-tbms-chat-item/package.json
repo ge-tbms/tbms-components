@@ -1,7 +1,7 @@
 {
-  "name": "rax-tbms-chat-plugin",
-  "version": "0.0.3",
-  "description": "tbms-chat-plugin with rax ",
+  "name": "rax-tbms-chat-item",
+  "version": "0.0.1",
+  "description": "hoc component of chat item",
   "author": "matrix ",
   "main": "src/index.js",
   "scripts": {
@@ -10,11 +10,7 @@
     "test": "jest",
     "lint": "eslint --ext .js --ext .jsx ./src"
   },
-  "keywords": [
-    "chat-plugin",
-    "rax",
-    "tbms"
-  ],
+  "keywords": [ "hoc"  ,"chat"  ,"item" ],
   "engines": {
     "npm": ">=3.0.0"
   },
@@ -42,6 +38,5 @@
     "eslint-plugin-react": "~7.11.1",
     "jest": "^23.6.0",
     "jest-localstorage-mock": "^2.3.0"
-  },
-  "gitHead": "12359d3c55f69100df0c58393cf16831c95f49c0"
+  }
 }
