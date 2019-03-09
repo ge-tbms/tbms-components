@@ -1,10 +1,8 @@
-  import { createElement, BaseComponent, systemStyles, customStyles } from '@ali/rax-tbms-chat-base';
+  import { createElement, BaseComponent, systemStyles, customStyles } from 'rax-tbms-chat-base';
 import View from 'rax-view';
 import Text from 'rax-text';
 import Image from 'rax-image';
-import Slider from 'rax-slider';
 import ScrollView from 'rax-scrollview';
-import { SMILEY_MAP } from './smile';
 import { ww } from './map'
 import cloneDeep from 'lodash/cloneDeep';
 

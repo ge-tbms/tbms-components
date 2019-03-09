@@ -8,7 +8,7 @@
  */
 import merge from 'lodash/merge';
 import { createElement, Component, render } from 'rax';
-import { TextMsg, ImageMsg, SystemMsg } from 'rax-tbms-chat-basemsg';
+import { TextMsg, ImageMsg, SystemMsg } from 'rax-tbms-basemsg';
 import { leftChatItemHOC, rightChatItemHOC } from 'rax-tbms-chat-item';
 
 /**

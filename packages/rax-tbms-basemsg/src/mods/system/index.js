@@ -5,7 +5,7 @@
  * @create: 2018/6
  * ----------------------------------
  */
-import {createElement, BaseComponent, systemStyles, customStyles} from '@ali/rax-tbms-chat-base';
+import {createElement, BaseComponent, systemStyles, customStyles} from 'rax-tbms-chat-base';
 import Text from 'rax-text';
 import View from 'rax-view';
 

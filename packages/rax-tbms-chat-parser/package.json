@@ -19,11 +19,9 @@
     "npm": ">=3.0.0"
   },
   "dependencies": {
-    "@types/lodash": "^4.14.119",
-    "lodash": "^4.17.11",
     "rax-image": "^0.6.5",
-    "rax-tbms-basemsg": "^0.0.2",
-    "rax-tbms-custommsg": "^0.0.2",
+    "rax-tbms-basemsg": "*",
+    "rax-tbms-chat-item": "*",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",
     "tbms-util": "*",

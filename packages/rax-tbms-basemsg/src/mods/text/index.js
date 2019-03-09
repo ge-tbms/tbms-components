@@ -5,7 +5,7 @@
  * @create: 2018/6
  * ----------------------------------
  */
-import {createElement, BaseComponent, customStyles, systemStyles } from '@ali/rax-tbms-chat-base';
+import {createElement, BaseComponent, customStyles, systemStyles } from 'rax-tbms-chat-base';
 import View from 'rax-view';
 
 export default class extends BaseComponent {

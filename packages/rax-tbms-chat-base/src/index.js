@@ -1,6 +1,6 @@
 /** @jsx createElement */
 
-import {createElement, Component, PureComponent, findDOMNode} from 'rax';
+import {createElement, Component, PureComponent, findDOMNode, render} from 'rax';
 import {CUSTOM_STYLE, SYSTEM_STYLE } from './style';
 import merge from 'lodash/merge';
 
@@ -28,5 +28,6 @@ export {
   setCustomStyle,
   systemStyles,
   customStyles,
-  findDOMNode
+  findDOMNode,
+  render
 };

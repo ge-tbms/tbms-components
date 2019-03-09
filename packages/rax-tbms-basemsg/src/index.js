@@ -6,18 +6,18 @@
  * @create: 2019/02
  * ----------------------------------
  */
-import Image from './mods/image';
-import System from './mods/system';
-import Text from './mods/text';
+import ImageMsg from './mods/image';
+import SystemMsg from './mods/system';
+import TextMsg from './mods/text';
 
 export default {
-  Image,
-  System,
-  Text
-}
+  ImageMsg,
+  SystemMsg,
+  TextMsg
+};
 
 export {
-  Image,
-  System,
-  Text
+  ImageMsg,
+  SystemMsg,
+  TextMsg
 };

@@ -12,7 +12,7 @@ module.exports = {
   },
   "parser": "babel-eslint",
   "rules": {
-    "quotes": [2, "single"],
+    "quotes": [2, "prefer-single"],
     "strict": [2, "never"],
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2

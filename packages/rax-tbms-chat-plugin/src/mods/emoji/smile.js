@@ -7,7 +7,7 @@
  * ----------------------------------
  */
 
-import {createElement, BaseComponent, customStyles, systemStyles } from '@ali/rax-tbms-chat-base';
+import {createElement, BaseComponent, customStyles, systemStyles } from 'rax-tbms-chat-base';
 
 import * as SmileConfig from './map';
 import Image from 'rax-image';

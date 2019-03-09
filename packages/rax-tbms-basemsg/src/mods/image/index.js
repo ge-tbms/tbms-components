@@ -1,4 +1,4 @@
-import { BaseComponent,  createElement, customStyles, systemStyles } from '@ali/rax-tbms-chat-base'
+import { BaseComponent,  createElement, customStyles, systemStyles } from 'rax-tbms-chat-base'
 import Image from 'rax-image';
 
 /**
