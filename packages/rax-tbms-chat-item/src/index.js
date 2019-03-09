@@ -22,7 +22,7 @@ const AVATOR_LEFT = 'https://gw.alicdn.com/tfs/TB1aRryvSzqK1RjSZFpXXakSXXa-640-6
  * @memberof ChatItemHOC
  */
 const leftChatItemHOC = (WrappedComponent) => conversation => {
-  const avator = conversation.targetAvator || AVATOR_LEFT;
+  const avator = conversation.touidAvator || AVATOR_LEFT;
   // 样式列表
   const style = {
     container: {
@@ -47,7 +47,7 @@ const leftChatItemHOC = (WrappedComponent) => conversation => {
       borderRadius: customStyles.border.mainBorderRadius,
       borderWidth: customStyles.border.mainBorderWidth,
       borderColor: customStyles.border.mainBorderColor,
-      fontColor: customStyles.border.mainFontColor,
+      color: customStyles.border.mainFontColor,
       paddingLeft: systemStyles.itemMainPadding,
       paddingRight: systemStyles.itemMainPadding,
       paddingTop: systemStyles.itemMainPadding,
@@ -63,7 +63,7 @@ const leftChatItemHOC = (WrappedComponent) => conversation => {
     },
     containerNick: {
       fontSize: systemStyles.containerNickFontSize,
-      fontColor: systemStyles.containerNickFontColor,
+      color: systemStyles.containerNickFontColor,
       textAlign: 'left'
     }
   };
@@ -75,7 +75,7 @@ const leftChatItemHOC = (WrappedComponent) => conversation => {
             <Image source={{uri: avator}} resizeMode="cover" style={style.containerAvator} />
           </View>
           <View style={[style.containerCnt, style.containerLeft]} >
-            <Text style={style.containerNick}>{conversation.targetNick}</Text>
+            <Text style={style.containerNick}>{conversation.touid}</Text>
             <View style={[style.containerWrapped, this.props.isCard ? style.containerWrappedCard : null]}>
               <WrappedComponent {...this.props} />
             </View>
@@ -88,7 +88,7 @@ const leftChatItemHOC = (WrappedComponent) => conversation => {
         <View style={style.container}>
           <Image source={{uri: avator}} resizeMode="cover" style={style.containerAvator} />
           <View style={[style.containerCnt, style.containerLeft]}>
-            <Text style={style.containerNick}>{conversation.targetNick}</Text>
+            <Text style={style.containerNick}>{conversation.touid}</Text>
             <WrappedComponent {...this.props} />
           </View>
         </View>
@@ -110,7 +110,7 @@ const leftChatItemHOC = (WrappedComponent) => conversation => {
  * @memberof ChatItemHOC
  */
 const rightChatItemHOC = (WrappedComponent) => conversation => {
-  const avator = conversation.userAvator || AVATOR_LEFT;
+  const avator = conversation.uidAvator || AVATOR_LEFT;
   // 样式列表
   const style = {
     container: {
@@ -138,7 +138,7 @@ const rightChatItemHOC = (WrappedComponent) => conversation => {
       borderRadius: customStyles.border.mainBorderRadius,
       borderWidth: customStyles.border.mainBorderWidth,
       borderColor: customStyles.border.mainBorderColor,
-      fontColor: customStyles.border.mainFontColor,
+      color: customStyles.border.mainFontColor,
       paddingLeft: systemStyles.itemMainPadding,
       paddingRight: systemStyles.itemMainPadding,
       paddingTop: systemStyles.itemMainPadding,
@@ -153,7 +153,7 @@ const rightChatItemHOC = (WrappedComponent) => conversation => {
     },
     containerNick: {
       fontSize: systemStyles.containerNickFontSize,
-      fontColor: systemStyles.containerNickFontColor,
+      color: systemStyles.containerNickFontColor,
       textAlign: 'right'
     }
   };
@@ -165,7 +165,7 @@ const rightChatItemHOC = (WrappedComponent) => conversation => {
             <Image source={{uri: avator}} resizeMode="cover" style={style.containerAvator} />
           </View>
           <View style={[style.containerCnt, style.containerRight]} >
-            <Text style={style.containerNick}>{conversation.userNick}</Text>
+            <Text style={style.containerNick}>{conversation.uid}</Text>
             <View style={[style.containerWrapped, this.props.isCard ? style.containerWrappedCard : null]}>
               <WrappedComponent {...this.props} />
             </View>
@@ -178,7 +178,7 @@ const rightChatItemHOC = (WrappedComponent) => conversation => {
       return (
         <View style={style.container}>
           <View style={[style.containerCnt, style.containerRight]}>
-            <Text style={style.containerNick}>{conversation.userNick}</Text>
+            <Text style={style.containerNick}>{conversation.uid}</Text>
             <WrappedComponent {...this.props} />
           </View>
           <Image source={{uri: avator}} resizeMode="cover" style={style.containerAvator} />

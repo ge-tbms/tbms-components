@@ -7,7 +7,8 @@
  */
 import {createElement, BaseComponent, customStyles, systemStyles } from 'rax-tbms-chat-base';
 import View from 'rax-view';
-
+import { emojiParser } from 'rax-tbms-chat-plugin'
+const wwParser = emojiParser('ww')
 export default class extends BaseComponent {
   styles = {
     container: {
@@ -26,6 +27,7 @@ export default class extends BaseComponent {
   }
   render() {
     const styles = this.styles;
-    return <View style={styles.container}>{this.props.content}</View>
+    const richText = wwParser(this.props.content, styles);
+    return <View style={styles.container}>{richText}</View>
   }
 }

@@ -56,18 +56,18 @@ export const CUSTOM_STYLE = {
     originFontColor: '#999999'
   },
   border: {
-    mainBorderRadius: 24,
+    mainBorderRadius: 10,
     mainBorderWidth: 0,
     mainBorderColor: '#FFFFFF',
     subBorderColor: '#999999',
     imageBorderRadius: 6,
-    avatorBorderRadius: 24,
+    avatorBorderRadius: 6,
     systemBorderRadius: 12
   },
   color: {
-    themeColor: '#FF5000',
-    bubbleBackgroundColor: '#FFE62C',
-    linearGradientColor: 'linear-gradient(to top right, #FF9901, #FE560A)'
+    themeColor: '#09BB07',
+    bubbleBackgroundColor: '#09BB07',
+    linearGradientColor: 'linear-gradient(to top right, #09BB07, #09BB07)'
   },
   padding: {
     systemPadding: 16
@@ -116,7 +116,7 @@ export const SYSTEM_STYLE = {
   containerPadding: 24,
   containerMainBorderRadius: 24,
   containerNickFontSize: 24,
-  containerNickFontColor: '#666666',
+  containerNickFontColor: '#B2B2B2',
   avatorRectangle: 80,
   avatorMarginRight: 20,
   itemMarginTop: 40,
