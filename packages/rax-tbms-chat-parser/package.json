@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-parser",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "chat parser with rax ",
   "author": "matrix ",
   "main": "src/index.js",
@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "rax-image": "^0.6.5",
-    "rax-tbms-basemsg": "^0.0.5",
-    "rax-tbms-chat-item": "^0.0.4",
+    "rax-tbms-basemsg": "^0.0.6",
+    "rax-tbms-chat-item": "^0.0.5",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",
     "tbms-util": "*",
