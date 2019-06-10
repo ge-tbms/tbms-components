@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-basemsg",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "tbms basemsg component with rax ",
   "author": "matrix",
   "main": "src/index.js",
@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "rax-image": "^0.6.5",
-    "rax-tbms-chat-base": "^0.0.2",
+    "rax-tbms-chat-base": "^0.0.3",
+    "rax-tbms-chat-plugin": "^0.0.5",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",
-    "universal-env": "^0.6.5",
-    "rax-tbms-chat-plugin": "^0.0.4"
+    "universal-env": "^0.6.5"
   },
   "peerDependencies": {
     "rax": "0.x"
