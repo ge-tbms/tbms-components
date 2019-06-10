@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-base",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "base ability of chat component",
   "author": "matrix ",
   "main": "src/index.js",

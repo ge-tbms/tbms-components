@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-parser",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "chat parser with rax ",
   "author": "matrix ",
   "main": "src/index.js",

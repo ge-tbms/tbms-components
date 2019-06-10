@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-custommsg",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "custom message component with rax ",
   "author": "matrix ",
   "main": "src/index.js",
