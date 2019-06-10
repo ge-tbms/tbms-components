@@ -43,5 +43,6 @@
     "jest-localstorage-mock": "^2.3.0",
     "rax-scripts": "^1.0.0-beta.2",
     "rax-test-renderer": "^0.6.5"
-  }
+  },
+  "gitHead": "40278ca6fdbdbc3de6fe2ddc28c99fe89a14e915"
 }
