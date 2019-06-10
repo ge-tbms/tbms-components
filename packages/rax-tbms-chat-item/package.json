@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-item",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "hoc component of chat item",
   "author": "matrix ",
   "main": "src/index.js",
