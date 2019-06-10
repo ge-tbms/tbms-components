@@ -21,7 +21,7 @@
   "dependencies": {
     "rax-image": "^0.6.5",
     "rax-scrollview": "^0.6.5",
-    "rax-tbms-chat-base": "^0.0.5",
+    "rax-tbms-chat-base": "*",
     "rax-text": "^0.6.5",
     "rax-textinput": "^0.6.5",
     "rax-view": "^0.6.5",

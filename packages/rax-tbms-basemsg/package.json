@@ -21,8 +21,8 @@
   },
   "dependencies": {
     "rax-image": "^0.6.5",
-    "rax-tbms-chat-base": "^0.0.5",
-    "rax-tbms-chat-plugin": "^0.0.7",
+    "rax-tbms-chat-base": "*",
+    "rax-tbms-chat-plugin": "*",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",
     "universal-env": "^0.6.5"
