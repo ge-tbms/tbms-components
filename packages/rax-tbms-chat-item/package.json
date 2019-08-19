@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "hoc component of chat item",
   "author": "matrix ",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "rax-scripts start -p 8000",
     "build": "rax-scripts build",

@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "custom message component with rax ",
   "author": "matrix ",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "rax-scripts start -p 8000",
     "build": "rax-scripts build",
