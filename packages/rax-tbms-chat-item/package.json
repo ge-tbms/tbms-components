@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-item",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "hoc component of chat item",
   "author": "matrix ",
   "main": "lib/index.js",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "rax-image": "^0.6.5",
-    "rax-tbms-chat-base": "*",
+    "rax-tbms-chat-base": "^0.1.2",
     "rax-text": "^0.6.5",
     "rax-view": "^0.6.5",
     "universal-env": "^0.6.5"

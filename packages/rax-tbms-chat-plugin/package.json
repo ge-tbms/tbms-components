@@ -1,6 +1,6 @@
 {
   "name": "rax-tbms-chat-plugin",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "tbms-chat-plugin with rax ",
   "author": "matrix ",
   "main": "lib/index.js",
@@ -21,7 +21,7 @@
   "dependencies": {
     "rax-image": "^0.6.5",
     "rax-scrollview": "^0.6.5",
-    "rax-tbms-chat-base": "*",
+    "rax-tbms-chat-base": "^0.1.2",
     "rax-text": "^0.6.5",
     "rax-textinput": "^0.6.5",
     "rax-view": "^0.6.5",
